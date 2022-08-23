@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+gamecode.code-workspace
+Debug/
+debug/
+release/
+Release/
+build/

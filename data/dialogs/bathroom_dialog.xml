@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<DialogList>
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation>
+      <x1>100</x1>
+      <x2>400</x2>
+      <y1>760</y1>
+      <y2>770</y2>
+    </triggerLocation>
+    <triggerObject></triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">My childhood bathroom...But what's the smell? </text>
+      <text speaker="Narrator">You feel a strong rotten smell. The facility in the bathroom fell into disrepair.</text>
+      <text speaker="Me">Have to find the key to the other rooms...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>drain</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">The floor drain...Looks like there is something shining below. </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>3</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>drain</triggerObject>
+    <useItem>hairpin</useItem>
+    <pickItem>screwdriver</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You use hair pin to pick up a screwdriver.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>4</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>shelf_left</triggerObject>
+    <useItem></useItem>
+    <pickItem>hairpin</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Picked up a hairpin.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>5</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>shelf_right</triggerObject>
+    <useItem></useItem>
+    <pickItem>soap</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Picked a soap. Looks like the soap was melted before.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>6</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mirror_wall</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>b1</triggerState>
+    <transitToState>b2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You walk to the full-size mirror on the wall.</text>
+      <text speaker="Me">Strange...This is the only shiny thing in this room. Looks like it has been cleaned regularly.</text>
+      <text speaker="Me">Ahhh!</text>
+      <text speaker="Narrator">You see a purple-skin dead woman standing behind you in the mirror. You immediately turn back but see nothing. The woman is staring at you with desperate and plaintive eyes. She is reaching her scraggy hands towards you in the mirror. </text>
+      <text speaker="Me">Who are you! What do you want from me!</text>
+      <text speaker="Woman">Don't you remember me...? You promised to protect me and my son and guide us to heaven...But look at me now......</text>
+      <text speaker="Me">I don't know you! Stop talking to me and leave me now!</text>
+      <text speaker="Woman">No...You do know who I am...Now, say my name and I will let you out...</text>
+      <text speaker="Narrator">The bathroom door suddenly closed heavily. You try to open the door and run, but it is sealed by some force. </text>
+      <text speaker="Me">(Whisper) I have to find out who she is...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>7</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mirror_wall</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>b2</triggerState>
+    <transitToState>b2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Woman">Say my name...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>8</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mirror_wall</triggerObject>
+    <useItem>knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>b2</triggerState>
+    <transitToState>b3</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Woman">Ha...Of course you wanna do it again...</text>
+      <text speaker="Narrator">The woman looks calm and is not afraid of you at all.</text>
+      <text speaker="Me">I don't know who you are! Just let me out of here!</text>
+      <text speaker="Narrator">You wave the knife and yell to the woman. The woman remains calm and is approaching you from the mirror. </text>
+      <text speaker="Me">Stop approaching me and let! me! out!!</text>
+      <text speaker="Narrator">The woman walks towards you. You suddenly found her stepping out of the mirror. You cannot think too much and stab the woman. However, the knife directly goes through her body and breaks the mirror. You noticed a big wound on the woman's stomach. The blood was splashing out of her body.</text>
+      <text speaker="Woman">So you did this again...As I expected...You will pay for it...You don't have to remember me...But I will remember you and come to you...Forever...</text>
+      <text speaker="Narrator">The figure of the woman faded out. You see a hole behind the mirror and find a key there. Suddenly, a great noise came from the outside of the door. It seems that the mysterious force has disappeared and the door can open now.</text>
+      <text speaker="Narrator">When you reach your hand towards the key, you feel a strong force coming through your arms. It feels like something is sucking away your soul.</text>
+      <text speaker="Woman">You never try to escape from me...</text>
+      <text speaker="Narrator">The voice of the woman suddenly appears in your head. You feel a strong dizziness and fainted out on the ground.</text>
+      <text speaker="">[Time -15 min]</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>9</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mirror_wall</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>b4</triggerState>
+    <transitToState>b5</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">Mercury! Mercury is your name!</text>
+      <text speaker="Narrator">The woman doesn't respond. She keeps staring at you. Suddenly, you noticed a big wound on the woman's stomach. The blood was splashing out of her body.</text>
+      <text speaker="Woman">You will pay for it...You don't have to remember me...But I will remember you and come to you...Forever...</text>
+      <text speaker="Narrator">The figure of the woman faded out. The mirror suddenly breaks into pieces and falls to the ground. You see a hole behind the mirror and find a key there. Suddenly, a great noise came from the outside of the door. It seems that the mysterious force has disappeared and the door can open now.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>10</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>sink</triggerObject>
+    <useItem></useItem>
+    <pickItem>crowbar</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">A sink with drawers underneath. The tap is broken. Looks like there was some blood in the sink. Above the sink is a broken mirror.</text>
+      <text speaker="Narrator">You open another drawer and find a crowbar.</text>
+      <text speaker="Narrator">You look at the broken mirror, trying so hard to recall the name of the woman.</text>
+      <text speaker="Me">Protect her and her son...I did say a lot of these to many young single mothers. I was just thinking of letting them join my organization...Who knows the name!</text>
+      <text speaker="Me">Sometimes I really hate myself doing these to those young ladies... But it's Baphomet's order...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>13</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>toilet</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The toilet seems to be broken. It is completely dry. </text>
+      <text speaker="Narrator">You noticed that you cannot press the flush button. </text>
+      <text speaker="Narrator">The water tank seems to be sealed. Need something to pry it.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>14</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>toilet</triggerObject>
+    <useItem>crowbar</useItem>
+    <pickItem>flashlight</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You pry open the water tank. There is a flashlight sealed in a ziplock bag </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>15</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>ventilation</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">A strong rotten smell wafts out from the ventilation... </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>16</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>ventilation</triggerObject>
+    <useItem>screwdriver</useItem>
+    <pickItem></pickItem>
+    <triggerState>b2</triggerState>
+    <transitToState>b7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You uncovered the ventilation. But it's too dark inside and you can't see anything. </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>17</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>ventilation</triggerObject>
+    <useItem>flashlight</useItem>
+    <pickItem>knife</pickItem>
+    <triggerState>b7</triggerState>
+    <transitToState>b2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You light up the dark ventilation tunnel. You found a big piece of carrion inside. The smell is so disgusting that it makes you retch. </text>
+      <text speaker="Narrator">You took a closer look, and found a stabber on the carrion.</text>
+    </textList>
+  </Dialog>
+
+<Dialog>
+    <!-- Attributes -->
+    <id>17</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>carpet</triggerObject>
+    <useItem>soap</useItem>
+    <pickItem></pickItem>
+    <triggerState>b7</triggerState>
+    <transitToState>b4</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">What would a soap do on the floor...</text>
+      <text speaker="Narrator">You put the soap on the box, nothing happended</text>
+      <text speaker="Me">Of course it won't work...</text>
+      <text speaker="Narrator">You try to pick up the soap, but it slipped from your hand</text>
+      <text speaker="Narrator">The soap slide to the side of the box, and you hear somthing is triggered. The box is suddenly opened.</text>
+      <text speaker="Me">There must be something inside the soap!</text>
+      <text speaker="Narrator">You break the soap and find a magnet inside. That explains why the box opened.</text>
+      <text speaker="Narrator">You check the box and find a note written with blood: </text>
+      <text speaker="Narrator">We share the same name, but mean two different things </text>
+      <text speaker="Narrator">one goes up and down, and the other spins </text>
+      <text speaker="Narrator">while one can make you sick, the other you cannot touch </text>
+      <text speaker="Narrator">you have heard of me before, whether you know it or not </text>
+      <text speaker="Narrator">you know our name, just give it a thought </text>
+      <text speaker="Narrator">One is a messenger, the other is not </text>
+      <text speaker="Narrator">One gives you a reading, the other helps the Oracle </text>
+      <text speaker="Narrator">What are we? </text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Mercury! </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>17</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>carpet</triggerObject>
+    <useItem>soap</useItem>
+    <pickItem></pickItem>
+    <triggerState>b2</triggerState>
+    <transitToState>b4</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">What would a soap do on the floor...</text>
+      <text speaker="Narrator">You put the soap on the box, nothing happended</text>
+      <text speaker="Me">Of course it won't work...</text>
+      <text speaker="Narrator">You try to pick up the soap, but it slipped from your hand</text>
+      <text speaker="Narrator">The soap slide to the side of the box, and you hear somthing is triggered. The box is suddenly opened.</text>
+      <text speaker="Me">There must be something inside the soap!</text>
+      <text speaker="Narrator">You break the soap and find a magnet inside. That explains why the box opened.</text>
+      <text speaker="Narrator">You check the box and find a note written with blood: </text>
+      <text speaker="Narrator">We share the same name, but mean two different things </text>
+      <text speaker="Narrator">one goes up and down, and the other spins </text>
+      <text speaker="Narrator">while one can make you sick, the other you cannot touch </text>
+      <text speaker="Narrator">you have heard of me before, whether you know it or not </text>
+      <text speaker="Narrator">you know our name, just give it a thought </text>
+      <text speaker="Narrator">One is a messenger, the other is not </text>
+      <text speaker="Narrator">One gives you a reading, the other helps the Oracle </text>
+      <text speaker="Narrator">What are we? </text>
+      <text speaker="Me">.</text>
+      <text speaker="Me">..</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">....</text>
+      <text speaker="Me">.....</text>
+      <text speaker="Me">......</text>
+      <text speaker="Me">Mercury! </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>17</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>carpet</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You step on the carpet and notice there is something underneath it. It is a wooden box embedded on the floor. </text>
+      <text speaker="Narrator">You spend all your effort trying to pick it up or open it, but it doesn't move or open at all. </text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>18</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway_door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>b5</triggerState>
+    <transitToState>h3</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">Finally I can unlock the door...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>19</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway_door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>b3</triggerState>
+    <transitToState>h3</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">Finally I can unlock the door...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>19</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway_door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">It's locked. Have to find a way out...</text>
+    </textList>
+  </Dialog>
+
+</DialogList>

@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<DialogList>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>kitchen-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">Back to the hallway...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>kitchen-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h1</triggerState>
+    <transitToState>k1</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">It's unlocked! You push open the door and head inside.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bathroom-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h2</triggerState>
+    <transitToState>b1</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">It's unlocked! You push open the door and head inside.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>foyer-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h3</triggerState>
+    <transitToState>f1</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">It's unlocked! You push open the door and head inside.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bedroom-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The door is locked. It seems like you can't go into this room at this time.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>kitchen-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The door is locked. It seems like you can't go into this room at this time.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bathroom-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The door is locked. It seems like you can't go into this room at this time.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>foyer-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The door is locked. It seems like you can't go into this room at this time.</text>
+    </textList>
+  </Dialog>
+
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h1</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You try and dial 911 on the phone, but all you hear is static.</text>
+      <text speaker="Me">Shit, no reception. Still, I wonder if someone's listening on the other side.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bookshelf</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h1</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The bookshelf is lined with rows and rows of religious texts.</text>
+      <text speaker="Narrator">For some, reason this makes you deeply uncomfortable.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>window</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h1</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Out the window, you see nothing but a sea of uncaring stars.</text>
+      <text speaker="Narrator">You can't tell where the sky ends and the ground begins.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">I...I should keep going.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h2</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You pick up the phone, and through the static you swear you hear...</text>
+      <text speaker="Narrator">...someone wailing.</text>
+      <text speaker="Me">...I doubt I'll get any help standing around here.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bookshelf</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h2</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The bookshelf contains a few, dusty religious volumes.</text>
+      <text speaker="Me">Maybe I should ask for the "Grace of God" to save me from this place.</text>
+      <text speaker="Me">...Yeah right...</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>window</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h2</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Out the window, you see nothing but starless night sky.</text>
+      <text speaker="Narrator">You get a nauseating sense of vertigo just by staring.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">...This...isn't home.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h3</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The phone's chord is cut.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>bookshelf</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h3</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The bookshelf contains a single, leather-bound tomb written in a language you have no hopes of understanding.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>window</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>h3</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">...</text>
+      <text speaker="Narrator">......</text>
+      <text speaker="Narrator">.........</text>
+      <text speaker="Narrator">...There's nothing...</text>
+    </textList>
+  </Dialog>
+  
+
+</DialogList>

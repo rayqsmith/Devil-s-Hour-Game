@@ -1,0 +1,815 @@
+<?xml version="1.0" ?>
+<DialogList>
+  <Dialog>
+    <!-- Attributes -->
+    <id>1</id>
+    <triggerLocation>
+      <x1>135</x1>
+      <x2>265</x2>
+      <y1>100</y1>
+      <y2>200</y2>
+    </triggerLocation>
+    <triggerObject></triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">This is getting freaky... </text>
+      <text speaker="Narrator">You hear a soft click as the door locks behind you.</text>
+      <text speaker="Me">I don't even remember how I got here! Why do I have to solve these puzzles?</text>
+      <text speaker="Narrator">You hear the faint sounds of rodents scratching from inside the walls.</text>
+      <text speaker="Narrator">...at least...you hope they're rats.</text>
+      <text speaker="Me">I have to calm down and focus on finding a way out of this place.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>2</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>cabinet</triggerObject>
+    <useItem></useItem>
+    <pickItem>steak-knife</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Even though the china seems fine from afar, upon closer inspection, it's marred by numerous urreperable cracks.</text>
+      <text speaker="Me">...Worthless. I wonder if I can find anything in the drawers to use as a weapon?</text>
+      <text speaker="Narrator">You pick up a steak knife.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>3</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Something foul stews in a pot over the burner. The acrid scent of the brew fills your nose.</text>
+      <text speaker="Me">I think I'm gonna be sick...</text>
+      <text speaker="Me">I doubt I'm supposed to eat this, but if not, what purpose does this serve?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>4</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>wedding-ring</useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState>k2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the ring into the pot. It seems stable.</text>
+      <text speaker="Me">I think I'm on the right track, but I don't think I'm finished just yet.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>5</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You touch the steak knife to the liquid in the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+       <text speaker="Me">I still have this steak knife, at least.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>6</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>moldy-cheese</useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the moldy cheese into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+    </textList>
+  </Dialog>
+
+<Dialog>
+    <!-- Attributes -->
+    <id>7</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>poison</useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the poison into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+    </textList>
+  </Dialog>
+
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>8</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k2</triggerState>
+    <transitToState>k3</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You dip the steak knife into the liquid in the pot. It seems stable.</text>
+      <text speaker="Me">I should probably hold onto this knife, never know when it might come in handy.</text>
+      <text speaker="Me">I think I'm on the right track, but I don't think I'm finished just yet.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>9</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>moldy-cheese</useItem>
+    <pickItem></pickItem>
+    <triggerState>k2</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the moldy cheese into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+    </textList>
+  </Dialog>
+
+<Dialog>
+    <!-- Attributes -->
+    <id>10</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>poison</useItem>
+    <pickItem></pickItem>
+    <triggerState>k2</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the poison into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+    </textList>
+  </Dialog>
+
+<Dialog>
+    <!-- Attributes -->
+    <id>11</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>poison</useItem>
+    <pickItem></pickItem>
+    <triggerState>k3</triggerState>
+    <transitToState>k4</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the poison into the pot. It seems stable.</text>
+      <text speaker="Me">I think I'm on the right track, but I don't think I'm finished just yet.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>12</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>moldy-cheese</useItem>
+    <pickItem></pickItem>
+    <triggerState>k3</triggerState>
+    <transitToState>k6</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the moldy cheese into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Me">No! It's ruinied now! I'll have to think of some other way to get out of here.</text>
+      <text speaker="Me">I still have this steak knife, at least.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>13</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>oven</triggerObject>
+    <useItem>moldy-cheese</useItem>
+    <pickItem>poisoned-cheese</pickItem>
+    <triggerState>k4</triggerState>
+    <transitToState>k5</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You drop the moldy cheese into the pot.</text>
+      <text speaker="Narrator">And it begins boiling over!</text>
+      <text speaker="Narrator">However, just before the reaction reaches its breaking point, the pot settles down.</text>
+      <text speaker="Narrator">Inside the pot now floats an acidic block of foul cheese.</text>
+      <text speaker="Me">I think it worked? </text>
+      <text speaker="Me">I wouldn't eat this cheese in a millon years, but I can think of one rodent who might.</text>
+      <text speaker="Narrator">You pick up a block of poisoned cheese.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>35</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>top-table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k5</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">I don't think this matters that much anymore.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>35</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>top-table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k6</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">I don't think this matters that much anymore.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>35</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>top-table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k8</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">I don't think this matters that much anymore.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>14</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>top-table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">On the table, you see a piece of paper that seems to contain a recipe.</text>
+      <text speaker="Narrator">The instructions read as follows:</text>
+      <text speaker="Recipe">"This is a tragedy told in four parts, containing a wicked secret that reveals the proper way to catch a rat. This story revolves around the sinful actions of three colorful rodents: Red Rat, Blue Rat, and Yellow Rat."</text>
+      <text speaker="Recipe">"1. For years, Red Rat had pined for Blue Rat. After gathering up the courage, Red Rat proposes to Blue Rat who eagerly accepts the flashy ring. However, Blue Rat would not prove faithful."</text>
+      <text speaker="Recipe">"2. Secretly, Blue Rat and Yellow Rat met up for romantic nights of dalliance. Red Rat eventually caught on to this charade, and decided to take revenge on the two conniving rodents. Red Rat began simply by stabbing Yellow Rat to death in their home."</text>
+      <text speaker="Recipe">"3. After Yellow Rat goes 'missing,' Blue Rat expectedly falls back into Red Rat's arms. However, having not forgiven Blue Rat, Red Rat slips a deadly poison into one of Blue Rat's meals, causing them to die a slow, painful death."</text>
+      <text speaker="Recipe">"4. Finally, Red Rat was free of all the troubles of their life. Finally, they could eat all the delicious cheese they wanted. At least...before the police arrived."</text>
+      <text speaker="Recipe">"Add the appropriate 'ingredients' to the pot in the order they appear in the story, and even a Rat as sinful as you could escape this prison of your own making."</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">What kind of recipe is this?</text>
+      <text speaker="Me">It's definitely cryptic, but I wonder if there's some hidden meaning here...</text>
+    </textList>
+  </Dialog>
+
+<Dialog>
+    <!-- Attributes -->
+    <id>15</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>sink</triggerObject>
+    <useItem></useItem>
+    <pickItem>wedding-ring</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Considering the state of the room, the sink seems remarkable clean. Almost as if someone had just recently it.</text>
+      <text speaker="Me">Wait, what's that shining in the drain?</text>
+      <text speaker="Narrator">You pick up a wedding ring.</text>
+      <text speaker="Me">I doubt anyone'll miss it.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>16</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>pantry-door</triggerObject>
+    <useItem></useItem>
+    <pickItem>poison</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You open the door and see a desolate cupboard. The pantry is barren except for one small bottle.</text>
+      <text speaker="Me">The label says this is poison...</text>
+      <text speaker="Me">I might as well take it. Who knows what use this might have?</text>
+      <text speaker="Narrator">You pick up a bottle of poison.</text>
+    </textList>
+  </Dialog>
+  
+  <Dialog>
+    <!-- Attributes -->
+    <id>17</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>dining-table</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">The long wooden table seems dusty and worn from use.</text>
+      <text speaker="Me">I'd feel nostalgic if this all wasn't so unsettling.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>18</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>chair-1</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">This doesn't seem too interesting.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>19</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>chair-2</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">This doesn't seem too interesting.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>20</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>chair-3</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">This doesn't seem too interesting.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>21</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>chair-4</triggerObject>
+    <useItem></useItem>
+    <pickItem>moldy-cheese</pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">This doesn't seem too interesting.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Wait, what's that smell?</text>
+      <text speaker="Narrator">You peer under the seat and see a small block of extremely moldy cheese.</text>
+      <text speaker="Me">I doubt even a mouse would want this. Still, I should grab it just in case.</text>
+      <text speaker="Narrator">You pick up a block of moldy cheese.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>22</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+
+  
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>28</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k7</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">The door is unlocked...I should go.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>29</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k8</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Me">The door is unlocked...I should go.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>30</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k2</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+  <Dialog>
+    <!-- Attributes -->
+    <id>31</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k3</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+  <Dialog>
+    <!-- Attributes -->
+    <id>32</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k4</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+  <Dialog>
+    <!-- Attributes -->
+    <id>33</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k5</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+  <Dialog>
+    <!-- Attributes -->
+    <id>34</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k6</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>34</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k6</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>34</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k6</triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">Small scratching sounds can be heard from inside this small hole.</text>
+      <text speaker="Me">This is the first sign of life I've seen from this place.</text>
+      <text speaker="Me">I wonder if this rat could be my ticket out?</text>
+    </textList>
+  </Dialog>
+
+   <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k1</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+   <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k2</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k3</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k4</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k5</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>23</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>steak-knife</useItem>
+    <pickItem></pickItem>
+    <triggerState>k6</triggerState>
+    <transitToState>k7</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the knife in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I bet I could fish out this rat with the knife.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You spend the next 15 minutes swiping at the rat through the hole, unsuccessfully trying to get it to come out.</text>
+      <text speaker="Narrator">Then in an act of frustration, you stab the knife straight at the rodent, impailing it through the chest.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY WOULDN'T YOU JUST COME OUT, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>24</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>mouse-hole</triggerObject>
+    <useItem>poisoned-cheese</useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState>k8</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You look at the cheese in your hand as you bear down over the rat's home.</text>
+      <text speaker="Me">I wonder if even the rat would eat this cheese.</text>
+      <text speaker="Me">But, if it's him or me, I know who I'm choosing...</text>
+      <text speaker="Narrator">You set the cheese down in front of the hole. Standing back, you wait for the rodent to emerge.</text>
+      <text speaker="Narrator">Suddenly, the rat darts from its hole and onto the cheese!</text>
+      <text speaker="Narrator">But, as soon as its teeth sink into the foul cheese, the rat lets out a high pitch sqeal as it flops over on its side, dead.</text>
+      <text speaker="Me">Wait NO! I didn't mean to!</text>
+      <text speaker="Me">WHY DID YOU HAVE TO ACTUALLY EAT THE CHEESE, YOU STUPID RAT!</text>
+      <text speaker="Narrator">Over the sound of blood pumping in your ear, you hear the door to your right unlock.</text>
+      <text speaker="Me">Finally.</text>
+      <text speaker="Me">...</text>
+      <text speaker="Me">Why does this feel so...familiar?</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>25</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k7</triggerState>
+    <transitToState>h2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You open the door.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>26</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState>k8</triggerState>
+    <transitToState>h2</transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You open the door.</text>
+    </textList>
+  </Dialog>
+
+  <Dialog>
+    <!-- Attributes -->
+    <id>27</id>
+    <triggerLocation></triggerLocation>
+    <triggerObject>hallway-door</triggerObject>
+    <useItem></useItem>
+    <pickItem></pickItem>
+    <triggerState></triggerState>
+    <transitToState></transitToState>
+    <!-- Texts -->
+    <textList>
+      <text speaker="Narrator">You rattle the door's handle, but it seems firmly locked.</text>
+      <text speaker="Me">I guess to unlock this door, I have to solve some sort of puzzle in this room.</text>
+      <text speaker="Me">Well...what have I got to lose?</text>
+    </textList>
+  </Dialog>
+
+
+  
+
+</DialogList>

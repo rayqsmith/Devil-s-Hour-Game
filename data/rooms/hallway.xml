@@ -1,0 +1,86 @@
+<room>
+  <!-- room settings -->
+  <name>hallway</name>
+  <width>1024</width>
+  <height>768</height>
+  <boundX>26</boundX>
+  <boundY>75</boundY>
+  <boundW>967</boundW>
+  <boundH>640</boundH>
+  <bornX>154</bornX>
+  <bornY>346.5</bornY>
+  
+  <!-- entity list -->
+   <entity>
+    <name>bedroom-door</name>
+    <w>155</w>
+    <h>45</h>
+    <x>110</x>
+    <y>695</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>foyer-door</name>
+    <w>145</w>
+    <h>45</h>
+    <x>220</x>
+    <y>50</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>bathroom-door</name>
+    <w>155</w>
+    <h>45</h>
+    <x>760</x>
+    <y>50</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>kitchen-door</name>
+    <w>155</w>
+    <h>45</h>
+    <x>390</x>
+    <y>375</y>
+    <isEntity>1</isEntity>
+  </entity>
+  
+  <entity>
+    <name>table</name>
+    <w>85</w>
+    <h>175</h>
+    <x>35</x>
+    <y>80</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>bookshelf</name>
+    <w>230</w>
+    <h>50</h>
+    <x>450</x>
+    <y>80</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>window</name>
+    <w>40</w>
+    <h>170</h>
+    <x>970</x>
+    <y>120</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+  <entity>
+    <name>placeholder</name>
+    <w>800</w>
+    <h>500</h>
+    <x>310</x>
+    <y>390</y>
+    <isEntity>1</isEntity>
+  </entity>
+
+</room>
