@@ -22,3 +22,17 @@ Devil’s Hour is a top-down horror/puzzle game where the player must escape a d
 
 ## Background 
 Game was developed as a requirement for a UG computer science course. We were responsible for designing, and making a 2D computer game and were also responsible for creating all the assets within the game (except for the music).
+
+## Instructions:
+    1.Install the following dependencies: 
+        SDL2
+        SDL2_ttf
+        SDL2_image
+        SDL2_gfx
+        SDL2_mixer
+    
+    2.Create new directory "Release" in the main folder
+    3. Navigate your command line to Release directory
+    4. Run "cmake .."
+    5. Run "make"
+    6. Start game using "./DevilsHour
